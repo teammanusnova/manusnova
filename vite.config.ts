@@ -14,7 +14,9 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base: "/manusnova",
+  // Use root in development so `npm run dev` serves at `/` and avoids 404s.
+  // Use the GitHub Pages subpath for production builds.
+  base: mode === 'development' ? '/' : '/manusnova/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

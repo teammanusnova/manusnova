@@ -44,8 +44,8 @@ const Footer = () => {
               <p>75 W 205th St</p>
               <p>Bronx, NY 10468</p>
               <p className="pt-2">
-                <a href="mailto:info@manusova.org" className="hover:text-primary-foreground transition-colors">
-                  info@manusova.org
+                <a href="mailto:teammanusnova@gmail.com" className="hover:text-primary-foreground transition-colors">
+                  teammanusnova@gmail.com
                 </a>
               </p>
             </div>

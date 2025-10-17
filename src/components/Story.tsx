@@ -24,7 +24,7 @@ const Story = () => {
                 <h3 className="text-2xl font-semibold text-foreground">The Beginning</h3>
                 <p className="text-muted-foreground">
                   Our journey began with a simple question: "What if we could use 3D printing and modern materials 
-                  to create affordable, functional prosthetics?" With guidance from Dr. Rodriguez and support from 
+                  to create affordable, functional prosthetics?" With guidance from classmates and support from 
                   our school's engineering program, we formed Manus Nova.
                 </p>
               </div>
