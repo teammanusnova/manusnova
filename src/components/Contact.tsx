@@ -20,20 +20,23 @@ const Contact = () => {
   const inputClass = "w-full h-11 px-4 rounded-xl border border-zinc-200 bg-zinc-50 text-zinc-950 text-sm placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-accent/60 focus:border-accent focus:bg-white transition-all";
 
   return (
-    <section id="contact" className="py-28 bg-zinc-50">
+    <section id="contact" className="py-20 sm:py-28 bg-zinc-50">
       <div className="max-w-7xl mx-auto px-6">
         <div ref={ref} className={`reveal ${visible ? "visible" : ""}`}>
 
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-24">
 
             {/* Info side */}
-            <div className="space-y-12">
+            <div className="space-y-10">
               <div>
-                <p className="text-xs font-bold text-accent uppercase tracking-[0.25em] mb-4">Contact</p>
-                <h2 className="text-5xl lg:text-6xl font-black text-zinc-950 leading-[0.9] tracking-tighter mb-6">
+                <div className="flex items-center gap-4 mb-5">
+                  <div className="h-px w-8 bg-accent flex-shrink-0" />
+                  <p className="text-xs font-bold text-accent uppercase tracking-[0.3em]">Contact</p>
+                </div>
+                <h2 className="text-5xl sm:text-6xl font-black text-zinc-950 leading-[0.9] tracking-tighter mb-5">
                   Let's talk.
                 </h2>
-                <p className="text-zinc-500 leading-relaxed text-lg">
+                <p className="text-zinc-500 leading-relaxed text-base sm:text-lg">
                   Need a prosthetic? Want to donate, volunteer, or partner with us?
                   We respond to every message.
                 </p>
@@ -50,7 +53,7 @@ const Contact = () => {
                       href={item.href}
                       target={item.href.startsWith("http") ? "_blank" : undefined}
                       rel="noopener noreferrer"
-                      className="text-zinc-950 font-semibold hover:text-accent transition-colors"
+                      className="text-zinc-950 font-semibold hover:text-accent transition-colors break-all"
                     >
                       {item.value}
                     </a>
@@ -67,7 +70,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="bg-zinc-950 text-white rounded-2xl p-8">
+              <div className="bg-zinc-950 text-white rounded-2xl p-7">
                 <p className="font-bold mb-2">Need a prosthetic?</p>
                 <p className="text-white/60 text-sm leading-relaxed">
                   We offer free consultations and custom fittings. Typical turnaround is 2–4 weeks.
@@ -79,7 +82,7 @@ const Contact = () => {
             {/* Form side */}
             <div>
               {submitted ? (
-                <div className="h-full flex flex-col justify-center items-start gap-6 bg-white rounded-2xl border border-zinc-100 p-12">
+                <div className="h-full flex flex-col justify-center items-start gap-6 bg-white rounded-2xl border border-zinc-100 p-10">
                   <div className="w-14 h-14 rounded-2xl bg-accent flex items-center justify-center">
                     <svg className="w-7 h-7 text-zinc-950" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
@@ -96,7 +99,7 @@ const Contact = () => {
                   </button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-zinc-100 p-8 lg:p-10 space-y-5">
+                <form onSubmit={handleSubmit} className="bg-white rounded-2xl border border-zinc-100 p-7 sm:p-10 space-y-5">
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div className="space-y-1.5">
                       <label className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Name</label>
@@ -121,7 +124,7 @@ const Contact = () => {
                     <label className="text-xs font-bold text-zinc-400 uppercase tracking-wider">Message</label>
                     <textarea
                       name="message"
-                      rows={6}
+                      rows={5}
                       required
                       placeholder="Tell us what's on your mind..."
                       className={`${inputClass} h-auto py-3 resize-none`}

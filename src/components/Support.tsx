@@ -46,33 +46,36 @@ const Support = () => {
   };
 
   return (
-    <section id="donations" className="py-28 bg-zinc-950">
+    <section id="donations" className="py-20 sm:py-28 bg-zinc-950">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div ref={heading.ref} className={`reveal ${heading.visible ? "visible" : ""} mb-20`}>
-          <p className="text-xs font-bold text-accent uppercase tracking-[0.25em] mb-4">Support Us</p>
-          <h2 className="text-5xl lg:text-7xl font-black text-white leading-[0.9] tracking-tighter">
+        <div ref={heading.ref} className={`reveal ${heading.visible ? "visible" : ""} mb-16 sm:mb-20`}>
+          <div className="flex items-center gap-4 mb-5">
+            <div className="h-px w-8 bg-accent flex-shrink-0" />
+            <p className="text-xs font-bold text-accent uppercase tracking-[0.3em]">Support Us</p>
+          </div>
+          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-[0.9] tracking-tighter">
             Help us reach<br />
             <span className="text-accent">more people.</span>
           </h2>
-          <p className="text-zinc-500 mt-6 text-lg max-w-md leading-relaxed">
+          <p className="text-zinc-500 mt-5 text-base sm:text-lg max-w-md leading-relaxed">
             Manus Nova runs entirely on donations. Every dollar goes directly to materials
             and the community members we serve.
           </p>
         </div>
 
-        <div ref={cards.ref} className={`reveal-stagger ${cards.visible ? "visible" : ""} grid md:grid-cols-2 gap-4`}>
+        <div ref={cards.ref} className={`reveal-stagger ${cards.visible ? "visible" : ""} grid sm:grid-cols-2 gap-4`}>
           {ways.map((way) => (
             <div
               key={way.title}
-              className={`rounded-2xl p-10 flex flex-col gap-8 border transition-all duration-300 ${
+              className={`rounded-2xl p-8 sm:p-10 flex flex-col gap-7 border transition-all duration-300 ${
                 way.dark
                   ? "bg-accent border-accent hover:-translate-y-1"
                   : "bg-zinc-900 border-zinc-800 hover:border-zinc-600 hover:-translate-y-1"
               }`}
             >
               <div className="flex-1 space-y-3">
-                <h3 className={`font-bold text-xl tracking-tight ${way.dark ? "text-zinc-950" : "text-white"}`}>
+                <h3 className={`font-bold text-lg sm:text-xl tracking-tight ${way.dark ? "text-zinc-950" : "text-white"}`}>
                   {way.title}
                 </h3>
                 <p className={`text-sm leading-relaxed ${way.dark ? "text-zinc-950/70" : "text-zinc-400"}`}>
