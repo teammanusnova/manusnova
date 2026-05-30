@@ -9,19 +9,20 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-                Engineering
-                <span className="block text-primary">Tomorrow's</span>
-                Mobility
+                Manus Nova
+                <span className="block text-primary text-3xl lg:text-4xl font-semibold mt-2">
+                  Engineering Tomorrow's Mobility
+                </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-lg">
-                Students from The Bronx High School of Science designing and creating 
-                life-changing prosthetics for our community members who need them most.
+                Students from The Bronx High School of Science designing and creating
+                free, custom 3D-printed prosthetics for community members who need them most.
               </p>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
                 onClick={() => {
                   const element = document.getElementById('story');
@@ -32,9 +33,9 @@ const Hero = () => {
               >
                 Learn Our Story
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
+              <Button
+                variant="outline"
+                size="lg"
                 className="border-warm-accent text-warm-accent hover:bg-warm-accent hover:text-warm-accent-foreground px-8 py-3"
                 onClick={() => {
                   const element = document.getElementById('contact');
@@ -46,7 +47,7 @@ const Hero = () => {
                 Support the Mission
               </Button>
             </div>
-            
+
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary">50+</div>
@@ -62,12 +63,14 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl transform rotate-3"></div>
-            <img 
-              src={heroImage} 
-              alt="Students working on prosthetic devices"
+            <img
+              src={heroImage}
+              alt="Manus Nova students working on 3D-printed prosthetic devices at The Bronx High School of Science"
+              width={600}
+              height={450}
               className="relative rounded-3xl shadow-xl w-full h-auto object-cover"
             />
           </div>

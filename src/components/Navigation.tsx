@@ -38,7 +38,7 @@ const Navigation = () => {
           <div className="flex items-center space-x-2">
             <img
               src={logo}
-              alt="Manus Nova - A Helping Hand"
+              alt="Manus Nova logo"
               className="h-12 w-auto rounded-full logo-3d-hover cursor-pointer"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             />
