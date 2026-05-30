@@ -1,80 +1,82 @@
 import { Button } from "@/components/ui/button";
 
+const ways = [
+  {
+    title: "Make a Donation",
+    description: "$50 covers materials for one prosthetic hand. $150 funds a full upper-limb device. $500 sponsors our workshop for a month.",
+    cta: "Donate via Email",
+    onClick: () => window.open("mailto:teammanusnova@gmail.com?subject=Donation%20Inquiry", "_blank"),
+    featured: true,
+  },
+  {
+    title: "Donate Materials",
+    description: "We always need 3D printing filament, electronics components, and specialized tools. Contact us to arrange a drop-off.",
+    cta: "Get in Touch",
+    onClick: () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }),
+    featured: false,
+  },
+  {
+    title: "Volunteer",
+    description: "Engineers, healthcare professionals, and community organizers — we'd love your expertise.",
+    cta: "Contact Us",
+    onClick: () => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" }),
+    featured: false,
+  },
+  {
+    title: "Spread the Word",
+    description: "Follow us on Instagram and share our mission. Every share helps us reach people who need a prosthetic.",
+    cta: "Follow @projectmanusnova",
+    onClick: () => window.open("https://instagram.com/projectmanusnova", "_blank"),
+    featured: false,
+  },
+];
+
 const Support = () => {
-  const scrollToContact = () => {
-    const el = document.getElementById("contact");
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
-  const supportOptions = [
-    {
-      title: "Financial Donations",
-      description:
-        "Help us purchase materials, 3D printing filament, and equipment for our prosthetic manufacturing.",
-      action: "Donate Now",
-      onClick: () => window.open("mailto:teammanusnova@gmail.com?subject=Donation%20Inquiry", "_blank"),
-    },
-    {
-      title: "Material Donations",
-      description:
-        "We need 3D printing filament, electronics components, and specialized tools for our workshop.",
-      action: "View Needs",
-      onClick: scrollToContact,
-    },
-    {
-      title: "Volunteer Time",
-      description:
-        "Share your expertise in engineering, manufacturing, or community outreach with our students.",
-      action: "Get Involved",
-      onClick: scrollToContact,
-    },
-    {
-      title: "Spread the Word",
-      description:
-        "Help us reach more people who could benefit from our prosthetics or support our mission.",
-      action: "Follow on Instagram",
-      onClick: () => window.open("https://instagram.com/projectmanusnova", "_blank"),
-    },
-  ];
-
   return (
-    <section id="donations" className="py-16 bg-muted/50">
-      <div className="container mx-auto px-6">
-        <div className="text-center space-y-8 mb-12">
-          <h2 className="text-4xl font-bold text-foreground">Support Our Mission</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Your support helps us continue creating life-changing prosthetics and empowering the next
-            generation of engineers.
+    <section id="donations" className="py-24 bg-muted">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-2xl mb-16">
+          <p className="text-sm font-semibold text-accent uppercase tracking-widest mb-3">Support Us</p>
+          <h2 className="text-4xl font-bold text-foreground leading-tight">
+            Help us reach more people.
+          </h2>
+          <p className="text-lg text-muted-foreground mt-4 leading-relaxed">
+            Manus Nova is run entirely on donations and goodwill. Every contribution goes directly
+            to materials and the community members we serve.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {supportOptions.map((option, index) => (
-            <div key={index} className="bg-background rounded-lg p-8 space-y-6 shadow-sm">
-              <h3 className="text-2xl font-semibold text-foreground">{option.title}</h3>
-              <p className="text-muted-foreground leading-relaxed">{option.description}</p>
+        <div className="grid md:grid-cols-2 gap-5">
+          {ways.map((way) => (
+            <div
+              key={way.title}
+              className={`rounded-xl p-8 border flex flex-col gap-5 ${
+                way.featured
+                  ? "bg-foreground text-background border-foreground"
+                  : "bg-background border-border"
+              }`}
+            >
+              <div className="flex-1 space-y-2">
+                <h3 className={`font-semibold text-lg ${way.featured ? "text-background" : "text-foreground"}`}>
+                  {way.title}
+                </h3>
+                <p className={`text-sm leading-relaxed ${way.featured ? "text-background/70" : "text-muted-foreground"}`}>
+                  {way.description}
+                </p>
+              </div>
               <Button
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                onClick={option.onClick}
+                variant={way.featured ? "secondary" : "outline"}
+                size="sm"
+                className={way.featured
+                  ? "bg-background text-foreground hover:bg-background/90 self-start"
+                  : "border-border text-foreground hover:bg-muted self-start"
+                }
+                onClick={way.onClick}
               >
-                {option.action}
+                {way.cta}
               </Button>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-12 space-y-4">
-          <p className="text-muted-foreground">
-            Every contribution, no matter the size, makes a difference in someone's life.
-          </p>
-          <div className="bg-primary/5 rounded-lg p-6 max-w-2xl mx-auto">
-            <p className="text-lg font-semibold text-foreground mb-2">Impact of Your Support</p>
-            <p className="text-muted-foreground">
-              $50 provides materials for one prosthetic hand &bull; $150 covers a full upper limb
-              prosthetic &bull; $500 sponsors our workshop for a month
-            </p>
-          </div>
         </div>
       </div>
     </section>

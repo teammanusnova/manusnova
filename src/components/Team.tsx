@@ -1,53 +1,56 @@
-const Team = () => {
-  const teamMembers = [
-    {
-      name: "Sarah Chen",
-      role: "Project Lead",
-      description: "Senior at Bronx Science with a passion for biomedical engineering."
-    },
-    {
-      name: "Marcus Johnson",
-      role: "Design Engineer",
-      description: "Specializes in 3D modeling and prosthetic joint mechanisms."
-    },
-    {
-      name: "Dr. Elena Rodriguez",
-      role: "Faculty Advisor",
-      description: "Engineering teacher guiding our mission with 15+ years of experience."
-    },
-    {
-      name: "Aisha Patel",
-      role: "Community Liaison",
-      description: "Connects with recipients and manages community outreach efforts."
-    }
-  ];
+const teamMembers = [
+  {
+    name: "Louis Gui",
+    role: "Co-Founder",
+    initials: "LG",
+  },
+  {
+    name: "Lucas Zelenski",
+    role: "Co-Founder",
+    initials: "LZ",
+  },
+  {
+    name: "Rishi Kothuru",
+    role: "Co-Founder",
+    initials: "RK",
+  },
+];
 
+const Team = () => {
   return (
-    <section id="team" className="py-16 bg-muted/50">
-      <div className="container mx-auto px-6">
-        <div className="text-center space-y-8 mb-12">
-          <h2 className="text-4xl font-bold text-foreground">Meet Our Team</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Dedicated students and educators working together to transform lives through innovative prosthetic solutions.
+    <section id="team" className="py-24 bg-background">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-2xl mb-16">
+          <p className="text-sm font-semibold text-accent uppercase tracking-widest mb-3">The Team</p>
+          <h2 className="text-4xl font-bold text-foreground leading-tight">
+            Built by students, for the community.
+          </h2>
+          <p className="text-lg text-muted-foreground mt-4 leading-relaxed">
+            Manus Nova is run entirely by high school students from The Bronx High School of Science
+            who give their time to make prosthetics accessible.
           </p>
         </div>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="bg-background rounded-lg p-6 text-center space-y-4 shadow-sm">
-              <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto">
-                <div className="text-2xl font-bold text-primary">
-                  {member.name.split(' ').map(n => n[0]).join('')}
-                </div>
+
+        <div className="grid md:grid-cols-3 gap-6 max-w-3xl">
+          {teamMembers.map((member) => (
+            <div key={member.name} className="group flex flex-col gap-4 p-6 rounded-xl border border-border hover:border-accent/40 transition-colors">
+              <div className="w-14 h-14 rounded-xl bg-muted flex items-center justify-center">
+                <span className="text-lg font-bold text-foreground tracking-tight">{member.initials}</span>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-foreground">{member.name}</h3>
-                <p className="text-primary font-medium">{member.role}</p>
+                <h3 className="font-semibold text-foreground">{member.name}</h3>
+                <p className="text-sm text-muted-foreground mt-0.5">{member.role}</p>
               </div>
-              <p className="text-muted-foreground text-sm">{member.description}</p>
             </div>
           ))}
         </div>
+
+        <p className="text-sm text-muted-foreground mt-10">
+          Interested in joining Manus Nova?{" "}
+          <a href="mailto:teammanusnova@gmail.com" className="text-accent hover:underline font-medium">
+            Reach out →
+          </a>
+        </p>
       </div>
     </section>
   );

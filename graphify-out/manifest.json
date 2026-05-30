@@ -1,0 +1,457 @@
+{
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\components.json": {
+    "mtime": 1780103811.5992732,
+    "ast_hash": "bfe8fda7814d7c5a44aff2aef2dd86ec",
+    "semantic_hash": "bfe8fda7814d7c5a44aff2aef2dd86ec"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\eslint.config.js": {
+    "mtime": 1780103811.599773,
+    "ast_hash": "2e240281bad56fce6a86cb0e49590ae9",
+    "semantic_hash": "2e240281bad56fce6a86cb0e49590ae9"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\package.json": {
+    "mtime": 1780103811.6047747,
+    "ast_hash": "e6f1c6a1087fb1263c708729eeba2335",
+    "semantic_hash": "e6f1c6a1087fb1263c708729eeba2335"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\postcss.config.js": {
+    "mtime": 1780103811.6047747,
+    "ast_hash": "5b84f4567208c7c747079c0477373231",
+    "semantic_hash": "5b84f4567208c7c747079c0477373231"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\tailwind.config.ts": {
+    "mtime": 1780103811.6387734,
+    "ast_hash": "0d6b76d0138cc1be7229d91f11d4da27",
+    "semantic_hash": "0d6b76d0138cc1be7229d91f11d4da27"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\tsconfig.app.json": {
+    "mtime": 1780103811.6392727,
+    "ast_hash": "79e98449596e490883e82f8a725d8efa",
+    "semantic_hash": "79e98449596e490883e82f8a725d8efa"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\tsconfig.json": {
+    "mtime": 1780103811.639773,
+    "ast_hash": "9d63d9b4e08d6b8a8e612909cd1bbb36",
+    "semantic_hash": "9d63d9b4e08d6b8a8e612909cd1bbb36"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\tsconfig.node.json": {
+    "mtime": 1780103811.639773,
+    "ast_hash": "ea3b5c2d9c1cc5d2b3fb3af706f2ca1a",
+    "semantic_hash": "ea3b5c2d9c1cc5d2b3fb3af706f2ca1a"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\vercel.json": {
+    "mtime": 1780104372.6800616,
+    "ast_hash": "3ce034f37a6661efc8073a99b87d2c87",
+    "semantic_hash": "3ce034f37a6661efc8073a99b87d2c87"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\vite.config.ts": {
+    "mtime": 1780104369.8349278,
+    "ast_hash": "8a4626c09a588c274399c43bec28ae84",
+    "semantic_hash": "8a4626c09a588c274399c43bec28ae84"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\scripts\\postbuild.js": {
+    "mtime": 1780103811.6077728,
+    "ast_hash": "d7fafbf270cbf486a191976ad20e213b",
+    "semantic_hash": "d7fafbf270cbf486a191976ad20e213b"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\App.tsx": {
+    "mtime": 1780103811.6087747,
+    "ast_hash": "bd9fd41ef64573feaec8c5e9b74a8982",
+    "semantic_hash": "bd9fd41ef64573feaec8c5e9b74a8982"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\main.tsx": {
+    "mtime": 1780103811.6367729,
+    "ast_hash": "cf567f8f60b7cfe4f5183c0028cf6a3b",
+    "semantic_hash": "cf567f8f60b7cfe4f5183c0028cf6a3b"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\vite-env.d.ts": {
+    "mtime": 1780103811.6383178,
+    "ast_hash": "8f68c27c3fc38817b2726b20e2d4f1ee",
+    "semantic_hash": "8f68c27c3fc38817b2726b20e2d4f1ee"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\About.tsx": {
+    "mtime": 1780103811.6117747,
+    "ast_hash": "ef7a9319ee933d99866cab92e17bf3b9",
+    "semantic_hash": "ef7a9319ee933d99866cab92e17bf3b9"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Contact.tsx": {
+    "mtime": 1780104316.7660792,
+    "ast_hash": "6034fa3b40e3630b9074924faf4ee5aa",
+    "semantic_hash": "6034fa3b40e3630b9074924faf4ee5aa"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Footer.tsx": {
+    "mtime": 1780104342.1572883,
+    "ast_hash": "5f2347b07ab1a4796e54ac1b72392258",
+    "semantic_hash": "5f2347b07ab1a4796e54ac1b72392258"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Hero.tsx": {
+    "mtime": 1780103811.6127732,
+    "ast_hash": "a14bded9551dd42e598e7d1cc1e14b7b",
+    "semantic_hash": "a14bded9551dd42e598e7d1cc1e14b7b"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Mission.tsx": {
+    "mtime": 1780103811.613273,
+    "ast_hash": "071f3532022a7ceec634e43b683d5dda",
+    "semantic_hash": "071f3532022a7ceec634e43b683d5dda"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Navigation.tsx": {
+    "mtime": 1780104288.5371764,
+    "ast_hash": "594f72083e8dd4df7f7177a42ed4abc6",
+    "semantic_hash": "594f72083e8dd4df7f7177a42ed4abc6"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Process.tsx": {
+    "mtime": 1780104347.105598,
+    "ast_hash": "d2b1de87fc57ee5862d8917f1780993f",
+    "semantic_hash": "d2b1de87fc57ee5862d8917f1780993f"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Story.tsx": {
+    "mtime": 1780103811.6142747,
+    "ast_hash": "c0665303d9151f58bb6d54fe5491eac4",
+    "semantic_hash": "c0665303d9151f58bb6d54fe5491eac4"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Support.tsx": {
+    "mtime": 1780104361.8821375,
+    "ast_hash": "a1f30d52ffb9065ccbd6bfacfb2c449f",
+    "semantic_hash": "a1f30d52ffb9065ccbd6bfacfb2c449f"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\Team.tsx": {
+    "mtime": 1780103811.6147747,
+    "ast_hash": "a9ff41072fb7065c21305a16b36ada94",
+    "semantic_hash": "a9ff41072fb7065c21305a16b36ada94"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\accordion.tsx": {
+    "mtime": 1780103811.615775,
+    "ast_hash": "1a18877296af9e613340447038cb8cb1",
+    "semantic_hash": "1a18877296af9e613340447038cb8cb1"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\alert-dialog.tsx": {
+    "mtime": 1780103811.615775,
+    "ast_hash": "18a643a884fd4f2832ef3abe20b35eb6",
+    "semantic_hash": "18a643a884fd4f2832ef3abe20b35eb6"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\alert.tsx": {
+    "mtime": 1780103811.6162736,
+    "ast_hash": "59e3895ea793fed08d8d9f0f83ad13df",
+    "semantic_hash": "59e3895ea793fed08d8d9f0f83ad13df"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\aspect-ratio.tsx": {
+    "mtime": 1780103811.6167753,
+    "ast_hash": "114d53f29a18d0e8b5e48f5ff3811e15",
+    "semantic_hash": "114d53f29a18d0e8b5e48f5ff3811e15"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\avatar.tsx": {
+    "mtime": 1780103811.6172733,
+    "ast_hash": "8f44230e5058b7ace8269c971da7189e",
+    "semantic_hash": "8f44230e5058b7ace8269c971da7189e"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\badge.tsx": {
+    "mtime": 1780103811.6177752,
+    "ast_hash": "2ba8b44541085f725b216267f9feb892",
+    "semantic_hash": "2ba8b44541085f725b216267f9feb892"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\breadcrumb.tsx": {
+    "mtime": 1780103811.6182733,
+    "ast_hash": "9fca9864de9b9b15e088c2a237c8594b",
+    "semantic_hash": "9fca9864de9b9b15e088c2a237c8594b"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\button.tsx": {
+    "mtime": 1780103811.6182733,
+    "ast_hash": "25d83ae83a5c9b777afe15a56249dd55",
+    "semantic_hash": "25d83ae83a5c9b777afe15a56249dd55"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\calendar.tsx": {
+    "mtime": 1780103811.6187725,
+    "ast_hash": "476dc9f9aa1ea81ac3dd0138011ac442",
+    "semantic_hash": "476dc9f9aa1ea81ac3dd0138011ac442"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\card.tsx": {
+    "mtime": 1780103811.6192725,
+    "ast_hash": "aed5be3990f288c539122080ef55490c",
+    "semantic_hash": "aed5be3990f288c539122080ef55490c"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\carousel.tsx": {
+    "mtime": 1780103811.619776,
+    "ast_hash": "14a5dcc894d9bc2b7730372507ed1b43",
+    "semantic_hash": "14a5dcc894d9bc2b7730372507ed1b43"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\chart.tsx": {
+    "mtime": 1780103811.619776,
+    "ast_hash": "145e8ee7e39401d9b5d59f0e9f05318f",
+    "semantic_hash": "145e8ee7e39401d9b5d59f0e9f05318f"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\checkbox.tsx": {
+    "mtime": 1780103811.6202757,
+    "ast_hash": "e8850db2b4357ce03822d84c54b72633",
+    "semantic_hash": "e8850db2b4357ce03822d84c54b72633"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\collapsible.tsx": {
+    "mtime": 1780103811.6207752,
+    "ast_hash": "1048c23a2aadd5fdbbde0b04ec61e5cf",
+    "semantic_hash": "1048c23a2aadd5fdbbde0b04ec61e5cf"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\command.tsx": {
+    "mtime": 1780103811.621274,
+    "ast_hash": "ddaf5f8eb7775107668d1a8175ea32f8",
+    "semantic_hash": "ddaf5f8eb7775107668d1a8175ea32f8"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\context-menu.tsx": {
+    "mtime": 1780103811.621274,
+    "ast_hash": "45f2a0aa025bab9b8f9965b24a73b970",
+    "semantic_hash": "45f2a0aa025bab9b8f9965b24a73b970"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\dialog.tsx": {
+    "mtime": 1780103811.621773,
+    "ast_hash": "3d8d7b8910a4fc37afd0cf021e16edde",
+    "semantic_hash": "3d8d7b8910a4fc37afd0cf021e16edde"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\drawer.tsx": {
+    "mtime": 1780103811.6222756,
+    "ast_hash": "2a1e7b21cfd5c0043e6abc45a9117d4e",
+    "semantic_hash": "2a1e7b21cfd5c0043e6abc45a9117d4e"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\dropdown-menu.tsx": {
+    "mtime": 1780103811.622773,
+    "ast_hash": "feacc91c0a5b8640b6f5cc8a98699c50",
+    "semantic_hash": "feacc91c0a5b8640b6f5cc8a98699c50"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\form.tsx": {
+    "mtime": 1780103811.6232727,
+    "ast_hash": "d6d30c3aae6f6d8d6299d67745504b48",
+    "semantic_hash": "d6d30c3aae6f6d8d6299d67745504b48"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\hover-card.tsx": {
+    "mtime": 1780103811.623775,
+    "ast_hash": "d7a103b77cc23f719887c6c90abef8a4",
+    "semantic_hash": "d7a103b77cc23f719887c6c90abef8a4"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\input-otp.tsx": {
+    "mtime": 1780103811.6242745,
+    "ast_hash": "feb9e193d5c6666a5682df9fbba1536b",
+    "semantic_hash": "feb9e193d5c6666a5682df9fbba1536b"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\input.tsx": {
+    "mtime": 1780103811.6242745,
+    "ast_hash": "f5c3f6115f14eb06180e98b0e302bc00",
+    "semantic_hash": "f5c3f6115f14eb06180e98b0e302bc00"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\label.tsx": {
+    "mtime": 1780103811.624823,
+    "ast_hash": "99b8b7244860ecba9ce05f5a644e0360",
+    "semantic_hash": "99b8b7244860ecba9ce05f5a644e0360"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\menubar.tsx": {
+    "mtime": 1780103811.625275,
+    "ast_hash": "791b0aa130a5be6588b3710a5ab704dd",
+    "semantic_hash": "791b0aa130a5be6588b3710a5ab704dd"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\navigation-menu.tsx": {
+    "mtime": 1780103811.625275,
+    "ast_hash": "595bbede1d5900b44f8f101f40b51ae2",
+    "semantic_hash": "595bbede1d5900b44f8f101f40b51ae2"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\pagination.tsx": {
+    "mtime": 1780103811.6257727,
+    "ast_hash": "fbe4e3289596434c7135c536a71887d1",
+    "semantic_hash": "fbe4e3289596434c7135c536a71887d1"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\popover.tsx": {
+    "mtime": 1780103811.626309,
+    "ast_hash": "686fa6dc4c8e3f0e5c0e542b2a62ec4f",
+    "semantic_hash": "686fa6dc4c8e3f0e5c0e542b2a62ec4f"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\progress.tsx": {
+    "mtime": 1780103811.6267767,
+    "ast_hash": "7a84c9ee8e9cd63771d4b472704d8d80",
+    "semantic_hash": "7a84c9ee8e9cd63771d4b472704d8d80"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\radio-group.tsx": {
+    "mtime": 1780103811.6272764,
+    "ast_hash": "e59c6e8ca6130d694a2cae82a83cb8dc",
+    "semantic_hash": "e59c6e8ca6130d694a2cae82a83cb8dc"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\resizable.tsx": {
+    "mtime": 1780103811.6277766,
+    "ast_hash": "a2f25b7becb25ae05252b81ca564bc5e",
+    "semantic_hash": "a2f25b7becb25ae05252b81ca564bc5e"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\scroll-area.tsx": {
+    "mtime": 1780103811.6277766,
+    "ast_hash": "6399ea030114b4a772f03f7dae127708",
+    "semantic_hash": "6399ea030114b4a772f03f7dae127708"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\select.tsx": {
+    "mtime": 1780103811.6282766,
+    "ast_hash": "d5bc9af6e00c50edda84c80201516bd0",
+    "semantic_hash": "d5bc9af6e00c50edda84c80201516bd0"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\separator.tsx": {
+    "mtime": 1780103811.6287773,
+    "ast_hash": "14b352d106f7c90830cea0ce57cdbde5",
+    "semantic_hash": "14b352d106f7c90830cea0ce57cdbde5"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\sheet.tsx": {
+    "mtime": 1780103811.6292768,
+    "ast_hash": "2e1504ca5868ca649a2e79fc0891057e",
+    "semantic_hash": "2e1504ca5868ca649a2e79fc0891057e"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\sidebar.tsx": {
+    "mtime": 1780103811.629777,
+    "ast_hash": "1a26aa46e0801e649150dc50e3851bfe",
+    "semantic_hash": "1a26aa46e0801e649150dc50e3851bfe"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\skeleton.tsx": {
+    "mtime": 1780103811.630277,
+    "ast_hash": "0166abaa35206d438bd5ac705fb5dfb7",
+    "semantic_hash": "0166abaa35206d438bd5ac705fb5dfb7"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\slider.tsx": {
+    "mtime": 1780103811.630277,
+    "ast_hash": "e8f00aaf3fa17aeaab4f63145045be78",
+    "semantic_hash": "e8f00aaf3fa17aeaab4f63145045be78"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\sonner.tsx": {
+    "mtime": 1780103811.6307774,
+    "ast_hash": "86a425e27fb4e58a48d9cfb6868fb715",
+    "semantic_hash": "86a425e27fb4e58a48d9cfb6868fb715"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\switch.tsx": {
+    "mtime": 1780103811.6312766,
+    "ast_hash": "c86b3514e573211535c13444639bcc30",
+    "semantic_hash": "c86b3514e573211535c13444639bcc30"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\table.tsx": {
+    "mtime": 1780103811.6317742,
+    "ast_hash": "554e91a3c4302c898342d712f80c3718",
+    "semantic_hash": "554e91a3c4302c898342d712f80c3718"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\tabs.tsx": {
+    "mtime": 1780103811.6322732,
+    "ast_hash": "3e664ca1ea5a9fbedaba0c2a4c0ca2d2",
+    "semantic_hash": "3e664ca1ea5a9fbedaba0c2a4c0ca2d2"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\textarea.tsx": {
+    "mtime": 1780103811.6322732,
+    "ast_hash": "31f5d6d52ea14c1411296ee63003e4d7",
+    "semantic_hash": "31f5d6d52ea14c1411296ee63003e4d7"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\toast.tsx": {
+    "mtime": 1780103811.6327763,
+    "ast_hash": "dbe9a151d339d621290dd6b42406e5fe",
+    "semantic_hash": "dbe9a151d339d621290dd6b42406e5fe"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\toaster.tsx": {
+    "mtime": 1780103811.6332738,
+    "ast_hash": "daf7b04904d77303dd96a17236e24fbb",
+    "semantic_hash": "daf7b04904d77303dd96a17236e24fbb"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\toggle-group.tsx": {
+    "mtime": 1780103811.633777,
+    "ast_hash": "9cdf37fe38d53d66fd4c7131599fd6f1",
+    "semantic_hash": "9cdf37fe38d53d66fd4c7131599fd6f1"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\toggle.tsx": {
+    "mtime": 1780103811.633777,
+    "ast_hash": "3914f58aeec727c94dfb13b6a25487c1",
+    "semantic_hash": "3914f58aeec727c94dfb13b6a25487c1"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\tooltip.tsx": {
+    "mtime": 1780103811.6342745,
+    "ast_hash": "57dbf3a262604092e7b52ffe1b715c5c",
+    "semantic_hash": "57dbf3a262604092e7b52ffe1b715c5c"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\components\\ui\\use-toast.ts": {
+    "mtime": 1780103811.634775,
+    "ast_hash": "5bff9ea3904b15a9e1908b128c88e75f",
+    "semantic_hash": "5bff9ea3904b15a9e1908b128c88e75f"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\hooks\\use-mobile.tsx": {
+    "mtime": 1780103811.6352735,
+    "ast_hash": "654e2ca2e9fddc27eb7e3954900dc48e",
+    "semantic_hash": "654e2ca2e9fddc27eb7e3954900dc48e"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\hooks\\use-toast.ts": {
+    "mtime": 1780103811.6357737,
+    "ast_hash": "e69924e5c597f9350d681937b80afc51",
+    "semantic_hash": "e69924e5c597f9350d681937b80afc51"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\lib\\utils.ts": {
+    "mtime": 1780103811.6367729,
+    "ast_hash": "1d8011eb18769078bf77502b220daa5e",
+    "semantic_hash": "1d8011eb18769078bf77502b220daa5e"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\pages\\Index.tsx": {
+    "mtime": 1780104265.1088068,
+    "ast_hash": "2a594bd90b0a85501ac689398d939b00",
+    "semantic_hash": "2a594bd90b0a85501ac689398d939b00"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\pages\\NotFound.tsx": {
+    "mtime": 1780103811.6377735,
+    "ast_hash": "ae75445e38e704549f03c920e728d506",
+    "semantic_hash": "ae75445e38e704549f03c920e728d506"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\ghpages_after_invalidation.html": {
+    "mtime": 1780103811.6002727,
+    "ast_hash": "11fe3ab67d0c61daa122935bf94a971d",
+    "semantic_hash": "11fe3ab67d0c61daa122935bf94a971d"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\ghpages_debug.html": {
+    "mtime": 1780103811.6008155,
+    "ast_hash": "93402f1801415303c02fed62314b6eea",
+    "semantic_hash": "93402f1801415303c02fed62314b6eea"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\ghpages_debug2.html": {
+    "mtime": 1780103811.601273,
+    "ast_hash": "606f9454ccbeb421a9caeb96068eac72",
+    "semantic_hash": "606f9454ccbeb421a9caeb96068eac72"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\ghpages_final.html": {
+    "mtime": 1780103811.601774,
+    "ast_hash": "b278b1d19c68b66a9eebc6a429396bdb",
+    "semantic_hash": "b278b1d19c68b66a9eebc6a429396bdb"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\ghpages_fresh.html": {
+    "mtime": 1780103811.601774,
+    "ast_hash": "12caf153d794274b6394b1521085481b",
+    "semantic_hash": "12caf153d794274b6394b1521085481b"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\ghpages_response.html": {
+    "mtime": 1780103811.602275,
+    "ast_hash": "12caf153d794274b6394b1521085481b",
+    "semantic_hash": "12caf153d794274b6394b1521085481b"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\index.html": {
+    "mtime": 1780103811.6027734,
+    "ast_hash": "88aff166c1e5a7e5dd10fe7a6f16223f",
+    "semantic_hash": "88aff166c1e5a7e5dd10fe7a6f16223f"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\README.md": {
+    "mtime": 1780103811.5977764,
+    "ast_hash": "0956a44f8e5ff583d1afe1d3b998e8e9",
+    "semantic_hash": "0956a44f8e5ff583d1afe1d3b998e8e9"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\public\\robots.txt": {
+    "mtime": 1780103811.6072738,
+    "ast_hash": "a9b03494151fe90e5decd2405400e106",
+    "semantic_hash": "a9b03494151fe90e5decd2405400e106"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\public\\favicon.png": {
+    "mtime": 1780103811.6062746,
+    "ast_hash": "013ea4e88beb302ea8641c7962e41566",
+    "semantic_hash": "013ea4e88beb302ea8641c7962e41566"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\public\\placeholder.svg": {
+    "mtime": 1780103811.6067748,
+    "ast_hash": "35707bd9960ba5281c72af927b79291f",
+    "semantic_hash": "35707bd9960ba5281c72af927b79291f"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\assets\\hero-prosthetics.jpg": {
+    "mtime": 1780103811.6102736,
+    "ast_hash": "25859265107cace11f3f7c239f85b5a8",
+    "semantic_hash": "25859265107cace11f3f7c239f85b5a8"
+  },
+  "C:\\Users\\johnalcatraz\\Desktop\\manusnova\\src\\assets\\logo.png": {
+    "mtime": 1780103811.6107738,
+    "ast_hash": "013ea4e88beb302ea8641c7962e41566",
+    "semantic_hash": "013ea4e88beb302ea8641c7962e41566"
+  }
+}
