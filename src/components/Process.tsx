@@ -1,58 +1,54 @@
+import { useScrollReveal } from "@/hooks/useScrollReveal";
+
 const steps = [
   {
     number: "01",
     title: "Assessment & Design",
-    description: "We meet with recipients to understand their specific needs and lifestyle, then create a custom design using CAD software tailored to their anatomy.",
+    description: "We meet with recipients in person to understand their specific needs, anatomy, and lifestyle. Then we design a custom device using CAD software.",
   },
   {
     number: "02",
     title: "3D Printing & Assembly",
-    description: "Using the school's advanced 3D printing lab, we manufacture every component with precision — typically within 72 hours.",
+    description: "Using the school's 3D printing lab, we manufacture every component. Most devices are printed and assembled within 72 hours.",
   },
   {
     number: "03",
     title: "Testing & Refinement",
-    description: "Every device goes through multiple rounds of testing and iteration with direct feedback from the recipient until it's right.",
+    description: "Every prosthetic goes through multiple rounds of testing and iteration. We only stop when the recipient says it's right.",
   },
   {
     number: "04",
-    title: "Delivery & Ongoing Support",
-    description: "We deliver and fit the prosthetic in person, then stay in contact for adjustments as the recipient grows or their needs change.",
+    title: "Delivery & Support",
+    description: "We deliver and fit the device in person, then stay in touch for adjustments as needs evolve. This relationship doesn't end at delivery.",
   },
 ];
 
 const Process = () => {
+  const heading = useScrollReveal(0.1);
+  const grid = useScrollReveal(0.05);
+
   return (
-    <section id="process" className="py-24 bg-muted">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="max-w-2xl mb-16">
-          <p className="text-sm font-semibold text-accent uppercase tracking-widest mb-3">How We Work</p>
-          <h2 className="text-4xl font-bold text-foreground leading-tight">
-            From first meeting to final fitting.
+    <section id="process" className="py-28 bg-zinc-50">
+      <div className="max-w-7xl mx-auto px-6">
+
+        <div ref={heading.ref} className={`reveal ${heading.visible ? "visible" : ""} mb-20`}>
+          <p className="text-xs font-bold text-accent uppercase tracking-[0.25em] mb-4">How We Work</p>
+          <h2 className="text-5xl lg:text-7xl font-black text-zinc-950 leading-[0.9] tracking-tighter">
+            From first meeting<br />to final fitting.
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div ref={grid.ref} className={`reveal-stagger ${grid.visible ? "visible" : ""} grid md:grid-cols-2 gap-4`}>
           {steps.map((step) => (
-            <div key={step.number} className="bg-background rounded-xl p-8 border border-border">
-              <div className="text-5xl font-bold text-border mb-4 leading-none">{step.number}</div>
-              <h3 className="text-lg font-semibold text-foreground mb-3">{step.title}</h3>
-              <p className="text-muted-foreground leading-relaxed text-sm">{step.description}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* Impact bar */}
-        <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[
-            { value: "98%", label: "Satisfaction Rate" },
-            { value: "72 hrs", label: "Avg. Build Time" },
-            { value: "$0", label: "Cost to Recipients" },
-            { value: "100%", label: "Custom Designed" },
-          ].map((item) => (
-            <div key={item.label} className="bg-background rounded-xl p-6 border border-border text-center">
-              <div className="text-3xl font-bold text-foreground">{item.value}</div>
-              <div className="text-xs text-muted-foreground mt-1">{item.label}</div>
+            <div
+              key={step.number}
+              className="group bg-white rounded-2xl p-10 border border-zinc-100 hover:border-zinc-950/20 hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+            >
+              <div className="text-[5rem] font-black leading-none text-zinc-100 mb-6 group-hover:text-accent transition-colors duration-300">
+                {step.number}
+              </div>
+              <h3 className="text-xl font-bold text-zinc-950 mb-3">{step.title}</h3>
+              <p className="text-zinc-500 leading-relaxed text-sm">{step.description}</p>
             </div>
           ))}
         </div>
