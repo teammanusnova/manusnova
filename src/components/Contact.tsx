@@ -1,6 +1,22 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+    const subject = (form.elements.namedItem("subject") as HTMLSelectElement).value;
+    const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+
+    const body = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\n${message}`;
+    window.location.href = `mailto:teammanusnova@gmail.com?subject=${encodeURIComponent(subject + " - Manus Nova")}&body=${encodeURIComponent(body)}`;
+    setSubmitted(true);
+  };
+
   return (
     <section id="contact" className="py-16 bg-background">
       <div className="container mx-auto px-6">
@@ -10,7 +26,7 @@ const Contact = () => {
             Have questions about our work? Need a prosthetic? Want to collaborate? We'd love to hear from you.
           </p>
         </div>
-        
+
         <div className="grid lg:grid-cols-2 gap-12 max-w-4xl mx-auto">
           <div className="space-y-8">
             <div>
@@ -28,7 +44,7 @@ const Contact = () => {
                     </p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center mt-1">
                     <span className="text-primary text-sm">✉️</span>
@@ -40,7 +56,24 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-                
+
+                <div className="flex items-start space-x-3">
+                  <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center mt-1">
+                    <span className="text-primary text-sm">📸</span>
+                  </div>
+                  <div>
+                    <p className="font-medium text-foreground">Instagram</p>
+                    <a
+                      href="https://instagram.com/projectmanusnova"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline"
+                    >
+                      @projectmanusnova
+                    </a>
+                  </div>
+                </div>
+
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-primary/10 rounded-full flex items-center justify-center mt-1">
                     <span className="text-primary text-sm">🕒</span>
@@ -48,68 +81,93 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-foreground">Workshop Hours</p>
                     <p className="text-muted-foreground">
-                      Monday - Friday: 3:30 PM - 5:30 PM<br />
-                      Saturday: 10:00 AM - 2:00 PM
+                      Monday – Friday: 3:30 PM – 5:30 PM<br />
+                      Saturday: 10:00 AM – 2:00 PM
                     </p>
                   </div>
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-muted/30 rounded-lg p-6">
               <h4 className="font-semibold text-foreground mb-3">For Prosthetic Requests</h4>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                If you or someone you know needs a prosthetic device, please reach out to us. We provide free 
-                consultations and custom fittings. Our typical turnaround time is 2-4 weeks depending on complexity.
+                If you or someone you know needs a prosthetic device, please reach out. We provide free
+                consultations and custom fittings. Typical turnaround is 2–4 weeks depending on complexity.
               </p>
             </div>
           </div>
-          
+
           <div className="bg-muted/30 rounded-lg p-8">
             <h3 className="text-2xl font-semibold text-foreground mb-6">Send us a Message</h3>
-            <form className="space-y-6">
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">Name</label>
-                <input 
-                  type="text" 
-                  className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="Your full name"
-                />
+            {submitted ? (
+              <div className="text-center py-12 space-y-4">
+                <div className="text-4xl">✅</div>
+                <p className="text-lg font-semibold text-foreground">Your email client is ready!</p>
+                <p className="text-muted-foreground text-sm">
+                  We've pre-filled a message for you. Just hit send in your email app and we'll get back to you shortly.
+                </p>
+                <button
+                  onClick={() => setSubmitted(false)}
+                  className="text-primary hover:underline text-sm mt-4"
+                >
+                  Send another message
+                </button>
               </div>
-              
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">Email</label>
-                <input 
-                  type="email" 
-                  className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-              
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">Subject</label>
-                <select className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent">
-                  <option>Prosthetic Request</option>
-                  <option>Volunteer Opportunity</option>
-                  <option>Donation Inquiry</option>
-                  <option>General Question</option>
-                  <option>Other</option>
-                </select>
-              </div>
-              
-              <div>
-                <label className="block text-sm font-medium text-foreground mb-2">Message</label>
-                <textarea 
-                  rows={4}
-                  className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent"
-                  placeholder="Tell us about your inquiry..."
-                ></textarea>
-              </div>
-              
-              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                Send Message
-              </Button>
-            </form>
+            ) : (
+              <form className="space-y-6" onSubmit={handleSubmit}>
+                <div>
+                  <label className="block text-sm font-medium text-foreground mb-2">Name</label>
+                  <input
+                    name="name"
+                    type="text"
+                    required
+                    className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent"
+                    placeholder="Your full name"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-foreground mb-2">Email</label>
+                  <input
+                    name="email"
+                    type="email"
+                    required
+                    className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent"
+                    placeholder="your.email@example.com"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-foreground mb-2">Subject</label>
+                  <select
+                    name="subject"
+                    className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent"
+                  >
+                    <option>Prosthetic Request</option>
+                    <option>Volunteer Opportunity</option>
+                    <option>Donation Inquiry</option>
+                    <option>General Question</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium text-foreground mb-2">Message</label>
+                  <textarea
+                    name="message"
+                    rows={4}
+                    required
+                    className="w-full px-4 py-2 border border-border rounded-md bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent"
+                    placeholder="Tell us about your inquiry..."
+                  ></textarea>
+                </div>
+
+                <Button type="submit" className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+                  Send Message
+                </Button>
+              </form>
+            )}
           </div>
         </div>
       </div>
